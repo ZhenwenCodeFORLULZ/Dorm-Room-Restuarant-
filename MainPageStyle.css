@@ -1,0 +1,80 @@
+/* home page mostly */
+h1{
+    font-size:90px ;
+    text-align: center;
+    background: black;
+    color: white;
+    min-height:80px;
+}
+div{
+    color: #AEEAFF;
+    font-size: 35px;
+    text-align:center;
+}
+#nav{
+    text-align:center;
+    display:grid;
+    min-height:80px;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 4px;
+    background-color: rgb(232, 238, 201);
+    overflow: auto;
+    
+}
+h2{
+    font-weight:bold;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-bottom: 60px;
+}
+section{
+    display:block;
+    text-align:center;
+    font-size: 50px;
+    color:white;
+    letter-spacing: 0.2rem;
+    background-color: black;
+}
+.section-description{
+    font-size:20px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+
+/* tab selection */
+.tab{
+    font-family:inherit;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    padding-bottom: 10px;
+    border:0;
+    border-top: 5px solid rgb(232, 238, 201);
+    border-bottom:5px solid rgb(232, 238, 201);
+    background-color:tomato;
+    box-shadow: inset 0px 0 7px 30px rgb(228, 161, 123);
+    color: white;
+    transition-duration:0.5s;
+    }
+.tab:hover,
+.tab:focus {
+  background-color: rgb(114, 144, 172);
+}
+
+.tab:hover span,
+.tab:focus span {
+  color: rgb(39, 243, 64);
+  text-shadow: 0px 0px 12px rgba(41, 41, 41, 0.4);
+  font-size: 55px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.wrapper{
+    display:flex;
+    grid-template-columns:repeat(3,1fr);
+    margin-top:12.5%;
+    grid-column-gap:10px;
+    overflow:auto;
+    margin:20,0px;
+    border:4px solid rgb(218, 231, 153);
+    text-align:center;
+}
+.DormRoomChef{
+    
+}
+.DormRoomChef2{
+    
+}
+.DormRoomChef3{
+    
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel = " stylesheet" href ="MainPageStyle.css">
+        <link rel = "stylesheet" href = "map.css">
+        <script src = "main.js" ></script> 
+        <script src = "map.js" ></script> 
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW6LMUGp2CT-K4eg-2a1ems8TfAHBLb68&callback=initMap&libraries=&v=weekly"
+        defer
+      ></script>
+        <title> Dorm Room Restuarant </title>
+    </head>
+    <body>
+        <h1>Dorm Room Resturant
+            <div>CHEAP AFFORDABLE TASTY HEALTHY?</div>
+            <nav id= "nav">
+                <button onclick ="homeFunc()",id = "home" class ="tab">
+                    <span>HOME</span>
+                </button>
+                <button onclick ="menuFunc()",id = "menu" class ="tab">
+                    <span>MENU</span>
+                </button>
+                <button onclick ="contactFunc()",id = "contact" class ="tab">
+                    <span>CONTACT</span>
+                </button>
+                <button onclick ="chefFunc()",id = "Chef" class ="tab">
+                    <span>CHEF</span>
+                </button>
+            </nav>
+        </h1>
+        <section class = "map">
+            <div id = "map"></div>
+        </section>
+        <section class = "description">
+                <br>Contact: 415----REDACTED-----Class Euclid
+                <br> location: "when you need us the most" 
+                <br> or at the underpass of a highway
+        </section>
+    </body>
+</html>
