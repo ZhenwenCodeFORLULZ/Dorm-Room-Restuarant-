@@ -1,19 +1,27 @@
-.wrapper{
-    display:flex;
-    grid-template-columns:repeat(3,1fr);
-    margin-top:12.5%;
-    grid-column-gap:10px;
-    overflow:auto;
-    margin:20,0px;
-    border:4px solid rgb(218, 231, 153);
-    text-align:center;
-}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  } 
 .DormRoomChef{
-    
+    width:25%;
+    height:25%;
 }
 .DormRoomChef2{
-    
+    width:25%;
+    height:25%;
 }
 .DormRoomChef3{
-    
+    width:25%;
+    height:25%;
+}
+
+h2{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
 }
